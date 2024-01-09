@@ -1,0 +1,63 @@
+
+body {
+    border: solid red;
+    width: 1080px;
+    margin: auto;
+    padding: 2%;
+}
+
+@media screen and (max-width: 1080px) {
+    body {
+        width: 95%;
+    }
+}
+
+.masthead {
+    border: solid blue;
+}
+
+.blob {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: blue;
+    display: inline-block;
+}
+
+/* .github-blob {
+
+}
+
+.linkedin-blob {
+
+} */
+
+.portrait-blob {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.summary {
+    border: solid green;
+}
+
+.projects {
+    border: hotpink solid;
+}
+
+.project-tile {
+    border: yellow solid;
+    width: 30%;
+    display: inline-block;
+    margin: auto;
+}
+
+.project-thumbnail {
+    border: purple solid;
+}
+
+.project-thumbnail img {
+    width: 100%;
+}
