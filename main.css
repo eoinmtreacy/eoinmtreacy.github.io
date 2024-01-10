@@ -1,19 +1,18 @@
-
 body {
     border: solid red;
-    width: 1080px;
+    width: 800px;
     margin: auto;
     padding: 2%;
 }
 
-@media screen and (max-width: 1080px) {
-    body {
-        width: 95%;
-    }
-}
-
-.masthead {
+.flex-container {
     border: solid blue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    padding: 0.5%;
 }
 
 .blob {
@@ -22,6 +21,8 @@ body {
     border-radius: 50%;
     background-color: blue;
     display: inline-block;
+    position: relative;
+    margin: auto;
 }
 
 /* .github-blob {
@@ -29,7 +30,7 @@ body {
 }
 
 .linkedin-blob {
-
+ 
 } */
 
 .portrait-blob {
@@ -41,6 +42,8 @@ body {
 
 .summary {
     border: solid green;
+    margin: 2% 0%;
+    padding: 2%;
 }
 
 .projects {
@@ -49,15 +52,22 @@ body {
 
 .project-tile {
     border: yellow solid;
-    width: 30%;
+    width: 240px;
     display: inline-block;
     margin: auto;
-}
-
-.project-thumbnail {
-    border: purple solid;
+    padding: 1%;
 }
 
 .project-thumbnail img {
     width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        width: 95%;
+    }
+
+    .project-tile {
+        width: 100%;
+    }
 }
