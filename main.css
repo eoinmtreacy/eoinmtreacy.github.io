@@ -1,0 +1,88 @@
+body {
+    border: solid red;
+    width: 800px;
+    margin: auto;
+    padding: 2%;
+}
+
+.flex-container {
+    border: solid blue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    padding: 0.5%;
+}
+
+.blob {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: blue;
+    display: inline-block;
+    position: relative;
+    margin: auto;
+}
+
+/* .github-blob {
+
+}
+
+.linkedin-blob {
+ 
+} */
+
+.portrait-blob {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: hotpink;
+    margin: 2%;
+}
+
+.summary {
+    border: solid green;
+    margin: 2% 0%;
+    padding: 2%;
+}
+
+.projects {
+    border: hotpink solid;
+}
+
+.project-tile {
+    border: yellow solid;
+    width: 240px;
+    display: inline-block;
+    margin: auto;
+}
+
+.project-tile p {
+    padding: 3%; 
+}
+
+.project-tile h2 {
+    text-align: center;
+}
+
+.project-thumbnail img {
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        width: 95%;
+    }
+
+    .project-tile {
+        width: 100%;
+    }
+}
