@@ -12,26 +12,18 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     position: relative;
-    padding: 0.5%;
 }
 
 .blob {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color: blue;
+    width: 75px;
     display: inline-block;
     position: relative;
-    margin: auto;
+    margin: auto 3%;
 }
 
-/* .github-blob {
-
+.blob img {
+    width: 100%;
 }
-
-.linkedin-blob {
- 
-} */
 
 .portrait-blob {
     width: 200px;
@@ -41,9 +33,14 @@ body {
 }
 
 .icon {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     margin: 2%;
+}
+
+.icon img {
+    width: 100%;
+    height: 100%;
 }
 
 .mailto-link {
@@ -100,10 +97,11 @@ body {
 }
 
 .project-tile {
-    border: yellow solid;
+
     width: 240px;
+    height: 600px;
     display: inline-block;
-    margin: auto;
+    margin: 1%;
 }
 
 .project-tile p {
@@ -125,5 +123,9 @@ body {
 
     .project-tile {
         width: 100%;
+        border: lightgrey solid 1px;
+        border-radius: 5%;
+        overflow: hidden;
+        height: 100%;
     }
 }
