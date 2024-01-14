@@ -1,12 +1,13 @@
 body {
-    border: solid red;
+    /* border: solid red; */
     width: 800px;
     margin: auto;
     padding: 2%;
+    font-family: 'Helvetica';
 }
 
 .flex-container {
-    border: solid blue;
+    /* border: solid blue; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -38,9 +39,13 @@ body {
     margin: 2%;
 }
 
+.in {
+    margin-top: 2.4%;
+}
+
 .icon img {
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
 }
 
 .mailto-link {
@@ -87,7 +92,7 @@ body {
 }
 
 .summary {
-    border: solid green;
+    /* border: solid green; */
     margin: 2% 0%;
     padding: 2%;
 }
