@@ -39,6 +39,10 @@ body {
     margin: 2%;
 }
 
+.icon:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 255, 0.5); /* Blue drop shadow on hover */
+  }
+
 .in {
     margin-top: 2.4%;
 }
