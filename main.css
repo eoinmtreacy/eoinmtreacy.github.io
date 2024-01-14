@@ -4,6 +4,7 @@ body {
     margin: auto;
     padding: 2%;
     font-family: 'Helvetica';
+    font-size: 1.25rem;
 }
 
 .flex-container {
@@ -114,7 +115,7 @@ body {
 }
 
 .project-tile p {
-    padding: 3%; 
+    padding: 0% 3%; 
 }
 
 .project-tile h2 {

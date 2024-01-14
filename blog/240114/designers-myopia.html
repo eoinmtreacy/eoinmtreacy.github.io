@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../main.css">
+    <title>Designer's Myopia</title>
+</head>
+
+<body>
+    <p>
+        I recently finished working on blackjack.py: a stylish blackjack game that you can play in your browser but
+        should
+        instead clone the repo and play it locally. The performance is bad in the browser and doesn't do justice to the
+        game.
+    </p>
+    <p>
+        I could blame the performance on Pygame, the library I used to build it. Or I could blame it on pygbag, the web
+        assembly compiler that produced the index.html and blackjack.apk files. Or I could blame it on my own code,
+        maybe
+        it could have been optimised better. All of these options are tempting but I will instead blame my own
+        designer's
+        myopia.
+    </p>
+
+    <p>
+        I enjoyed making the original terminal based version of the game: it was an optional assignment for a Python
+        object-oriented programming class. At this point, what I got out of the project was learning, and was mostly
+        satisfied.
+        However, there is a certain something lacking from playing any game that's just text-based, so I decided I would
+        make
+        a GUI.
+    </p>
+
+    <p>
+        Choosing Pygame was my first mistake. For a variety of reasons, but most importantly: I didn't acknowledge or
+        even
+        think about what I wanted to get out of this project, I just took a decision on a whim.
+    </p>
+
+    <p>
+        If I had spent any amount of time thinking about what I wanted: a compact little browser game to share around
+        and
+        highlight some of the OOP principles I had learned, I would have ruled out Pygame immediately. Javascript is
+        perfectly suited to OOP, especially for game design, and there are plenty of graphical libraries to make my life
+        easy: p5.js comes to mind. But most importantly, it's the perfect choice for browser-based distribution.
+    </p>
+
+    <p>
+        There would have been a little bit of work recreating the program in Javascript, and then adding the graphical
+        elements, but then it would have worked.
+    </p>
+
+    <p>
+        Instead, I wrote the entire thing in Pygame, tried to figure out how to get it onto the browser, learned about
+        pygbag, troubleshooted pygbag, realised that I hadn't structured my game loop with pygbag in mind, refactored
+        the Pygame code, troubleshooting again, got it to compile correctly and the result is something I'm not
+        satisfied
+        with.
+    </p>
+
+    <p>
+        At quite a few steps along the way, with respect to my own time and achieving a desirable outcome, I ought to
+        have
+        bailed on the Pygame endeavour and tried something else. Or, at least, even thought about what I wanted out of
+        it.
+
+    </p>
+
+    <p>
+        You can play it here, and I still think you should even if it's a bit slow. I have some desire to do the game
+        justice and make it in something like p5.js, but I think it serves better as a lesson.
+    </p>
+
+    <p>
+        Think about what you want to get out, it'll let you know what you need to put in.
+    </p>
+
+
+</body>
+
+</html>
