@@ -10,19 +10,24 @@ body {
     text-decoration: none;
 }
 
-nav {
-    overflow: hidden;
-    position: fixed;
-    z-index: 1;
-    padding: 2%;
+nav ul {
+    text-align: center;
 }
 
 nav a {
-    float: left;
-    display: block;
-    text-align: center;
+    text-decoration: none;
+    color: grey;
+    padding: 2%
+}
 
-    padding: 1%;
+nav a:hover {
+    color: white;
+    background-color: grey;
+    border-radius: 5%;
+}
+
+nav li {
+    display: inline;
 }
 
 .flex-container {
