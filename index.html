@@ -1,108 +1,151 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Eoin Treacy</title>
-        <meta name="description" content="">
-        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./main.css">
-    </head>
-    <body>
-        
-        <nav id="navBar">
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./blogs.html">Blogs</a></li>
-            </ul>
-        </nav>
 
-        <div class="masthead flex-container">
-            <div class="blob portrait-blob">
-                <img src="./images/profile.jpg" alt="profile image of a handsome man">
-            </div>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Eoin Treacy</title>
+    <meta name="description" content="">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+
+    <nav id="navBar">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./blogs.html">Blogs</a></li>
+        </ul>
+    </nav>
+
+    <div class="masthead flex-container">
+        <div class="blob portrait-blob">
+            <img src="./images/profile.jpg" alt="profile image of a handsome man">
+        </div>
+    </div>
+
+    <div class="icons flex-container">
+        <div class="icon in"><a href="https://www.linkedin.com/in/eoin-treacy"><img src="./images/in.png"
+                    alt="linked in  link"></a></div>
+        <div class="icon"><a href="https://github.com/eoinmtreacy"><img src="./images/github.svg" alt="github link"></a>
+        </div>
+        <!-- <div class="icon"><a href="./cv/eoin-treacy.pdf"><img src="./images/cv.svg" alt="cv link"></a></div> -->
+        <div class="icon"><a href="blogs.html"><img src="./images/blog.svg" alt="blog link"></a></div>
+        <div class="icon"><a href="mailto:eointreacy5@gmail.com"><img src="./images/email.svg" alt=""></a></div>
+        <div class="icon"><a href="https://www.strava.com/athletes/27272972"><img src="./images/strava.svg"
+                    alt="strava link"></a></div>
+    </div>
+
+    <div class="summary">
+        <h2>About me</h2>
+        <p>
+            I'm Eoin, I live in Dublin and have recently completed a higher diploma in Computer Science from
+            UCD. I have a background in business, finance, retail production and public speaking, but am most
+            excited by a future in software engineering.
+        </p>
+
+        <p>
+            I enjoy big projects and getting to work on every part of the stack. Most recently I've been exposed
+            to the DevOps side of things as the maintenance lead for my latest college project. You should
+            definitely check out some of projects to see what I've been getting into, or take a look at my:
+            <a href="blogs.html">blog</a>.
+        </p>
+
+    </div>
+
+    <div class="flex-container">
+
+        <div class="project-tile">
+            <div class="project-thumbnail"><img src="./images/gems.png" alt="gemvironmentally friendly image"></div>
+            <a href="/gems/">
+                <h2>Gemvironmentally Friendly</h2>
+            </a>
+            <p><em>Gemvironmentally Friendly</em> was a group project for a Java programming: we were asked to make
+                a game themed around sustainable transport.</p>
+            <p>Our little man runs, bikes or drives around the screen collecting gems because why <em>wouldn't</em>
+                you want to collect gems?</p>
+            <p>You're slower on foot or on bike, but your carbon footprint is smaller; you're faster in cars and
+                public transport but you'll produce more emmissions.</p>
+            <p>I had a lot of fun with this project: A* Star pathfinding, external and internal collisions (trust
+                me, the internal collision were far trickier) and and UI and gameloop integration.</p>
+            <p>There are some finicky things about getting a game developed in Java to run in the browser, and
+                it may be rough around the edges you can play it <a href="/gems">here!</a></p>
         </div>
 
-        <div class="icons flex-container">
-            <div class="icon in"><a href="https://www.linkedin.com/in/eoin-treacy"><img src="./images/in.png" alt="linked in  link"></a></div>
-            <div class="icon"><a href="https://github.com/eoinmtreacy"><img src="./images/github.svg" alt="github link"></a></div>
-            <!-- <div class="icon"><a href="./cv/eoin-treacy.pdf"><img src="./images/cv.svg" alt="cv link"></a></div> -->
-            <div class="icon"><a href="blogs.html"><img src="./images/blog.svg" alt="blog link"></a></div>
-            <div class="icon"><a href="mailto:eointreacy5@gmail.com"><img src="./images/email.svg" alt=""></a></div>
-            <div class="icon"><a href="https://www.strava.com/athletes/27272972"><img src="./images/strava.svg" alt="strava link"></a></div>
-        </div>
-
-        <div class="summary">
-            <h2>About me</h2>
+        <div class="project-tile">
+            <div class="project-thumbnail"><img src="./images/dublin-bikes.png" alt="dublin bikes alt image"></div>
+            <a href="https://github.com/eoinmtreacy/dublin-bikes">
+                <h2>Dublin Bikes Live</h2>
+            </a>
+            <p>This app does a whole lot in a small package: a single page Flask app with some minimal APIs plugged into
+                an ML pipeline.
+            </p>
+            <p>You can get realtime information for every Dublin Bike rental station in the city, historic occupancy trends,
+                hourly predictions for the next 12 hours and a map of the city with the stations colour coded by occupancy.
+            </p>
             <p>
-                Pursuing a Masters in Computer Science (Conversion) at University College Dublin and
-                looking for exciting internship opportunities this summer.
+                This project was a lot of fun to work on because the tasks were so diverse: debugging JS in the morning,
+                working on the ML pipeline in the afternoon and then getting to grips with how the endpoints stitch it all 
+                together until later in the evening than I'd care to admit.
             </p>
+       </div>
 
-            <p>
-                Definitely check out some of my projects below, it'll give you an idea of the kind ofs things 
-                I've been learning and most passionate about. You can also check out my <a href="blogs.html">blog</a>.
-            </p>
-
-            <p>  
-                "Did I hear you say <i>conversion?</i>" You did indeed, my experience is diverse:
-                I have a business degree from Dublin City University, worked in finance for Volkswagen Group Ireland,
-                was a public speaking coach and then a retail production executive for Paddy Power. 
-            </p>
-
-            <p>
-                I'm pretty well traveled: I visited 16 different countries in 2023 and  flew once entirely around the world. 
-                I'd love to tell you all about it, <a href="mailto:eointreacy5@gmail.com">email</a> or <a href="https://www.linkedin.com/in/eoin-treacy/">LinkedIn</a>: take your pick.
-            </p>
-            
+        <div class="project-tile">
+            <div class="project-thumbnail"><img src="./images/blackjack_splitting.png" alt="blackjack app image"></div>
+            <a href="/blackjack/">
+                <h2>blackjack.py</h2>
+            </a>
+            <p>The first python object-oriented programming assignment we were given</p>
+            <p>The original assignment was a basic command line version</p>
+            <p>I couldn't help myself and got stuck into it with the pygame library</p>
+            <p>You can play it in the <a href="/blackjack/">browser</a> or check out the <a
+                    href="https://github.com/eoinmtreacy/blackjack">GitHub</a></p>
+            <p>I learned a lot on this project and wrote a <a href="blog/240114/designers-myopia.html">blog post about
+                    it</a></p>
         </div>
 
-        <div class="flex-container">
-            
-            <div class="project-tile">
-                <div class="project-thumbnail"><img src="./images/blackjack_splitting.png" alt="blackjack app image"></div>
-                <a href="/blackjack/"><h2>blackjack.py</h2></a>
-                <p>The first python object-oriented programming assignment we were given</p>
-                <p>The original assignment was a basic command line version</p>
-                <p>I couldn't help myself and got stuck into it with the pygame library</p>
-                <p>You can play it in the <a href="/blackjack/">browser</a> or check out the <a href="https://github.com/eoinmtreacy/blackjack">GitHub</a></p>
-                <p>I learned a lot on this project and wrote a <a href="blog/240114/designers-myopia.html">blog post about it</a></p>
+        <div class="project-tile">
+            <div class="project-thumbnail"><img src="./images/senators_home.png" alt="us senators home circles layout">
             </div>
-
-            <div class="project-tile">
-                <div class="project-thumbnail"><img src="./images/senators_home.png" alt="us senators home circles layout"></div>
-                <a href="/US-Senators-Website/"><h2>US Senators Website</h2></a>
-                <p>A partner project for my first semester web dev module</p>
-                <p>Visit the site to see it in action, or check out my specific contribution on 
-                    my <a href="https://github.com/eoinmtreacy/US-Senators-Website">GitHub fork</a> of the project
-                </p>
-            </div>
-
-            <div class="project-tile">
-                <div class="project-thumbnail"><img src="./images/romance.png" alt="romance languge tomato"></div>
-                <a href="/romance/"><h2>Romantic Food</h2></a>
-                <p>
-                    Before I got back to college I tried this simple React project to ease 
-                    myself back into programming.
-                </p>
-                <p>
-                    There's an was interesting book, <a href="https://books.google.ie/books/about/The_Loom_of_Language.html?id=g24XKBDPOYcC&redir_esc=y">The Loom of Language</a>, 
-                    written in the 40s about the merits of learning many languages of the same family at ths same time.
-                </p>
-                <p>
-                    The logic being that it's not much more effort to learn vocabulary of multiple
-                    languages that share the same etymological roots: I made an small app to 
-                    quiz you on food in the romance languages.
-                </p>
-            </div>
-            
+            <a href="/US-Senators-Website/">
+                <h2>US Senators Website</h2>
+            </a>
+            <p>A partner project for my first semester web dev module</p>
+            <p>Visit the site to see it in action, or check out my specific contribution on
+                my <a href="https://github.com/eoinmtreacy/US-Senators-Website">GitHub fork</a> of the project
+            </p>
         </div>
-        
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-        <script src="app.js"></script>
-    </body>
+        <div class="project-tile">
+            <div class="project-thumbnail"><img src="./images/romance.png" alt="romance languge tomato"></div>
+            <a href="/romance/">
+                <h2>Romantic Food</h2>
+            </a>
+            <p>
+                Before I got back to college I tried this simple React project to ease
+                myself back into programming.
+            </p>
+            <p>
+                There's an was interesting book, <a
+                    href="https://books.google.ie/books/about/The_Loom_of_Language.html?id=g24XKBDPOYcC&redir_esc=y">The
+                    Loom of Language</a>,
+                written in the 40s about the merits of learning many languages of the same family at ths same time.
+            </p>
+            <p>
+                The logic being that it's not much more effort to learn vocabulary of multiple
+                languages that share the same etymological roots: I made an small app to
+                quiz you on food in the romance languages.
+            </p>
+        </div>
+
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
 </html>
-
