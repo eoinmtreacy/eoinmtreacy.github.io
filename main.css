@@ -137,7 +137,7 @@ nav li {
 .project-tile {
 
     width: 240px;
-    height: 600px;
+    /* height: 600px; */
     display: inline-block;
     margin: 1%;
 }
