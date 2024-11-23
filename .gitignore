@@ -1,2 +1,4 @@
 site_template.excalidraw
 /templating
+/_site
+.jekyll-cache
